@@ -12,5 +12,9 @@ namespace AssignmentDept.Controllers
         {
             return View();
         }
+        public IActionResult Registration()
+        {
+            return View();
+        }
     }
 }
