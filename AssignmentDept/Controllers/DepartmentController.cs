@@ -32,7 +32,7 @@ namespace AssignmentDept.Controllers
             {
                 if (employees.AddDepartment(d))
                 {
-                    string message = "Great! Employee Added Successfully!!";
+                    string message = "Great! Department Added Successfully!!";
                     TempData["msg"] = "<div class='alert alert-success alert-dismissable' id='alert'><button type='button' class='close' data-dismiss='alert'>×</button><strong> Success!</ strong > " + message + "</a>.</div>";
 
                     return RedirectToAction("Index");
